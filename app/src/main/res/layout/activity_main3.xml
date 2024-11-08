@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Purple"
+    tools:context=".MainActivity3">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView4"
+        android:layout_width="170dp"
+        android:layout_height="154dp"
+        android:layout_margin="15dp"
+
+        app:srcCompat="@drawable/babygirl" />
+
+    <TextView
+        android:layout_gravity="center"
+
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:layout_margin="15dp"
+
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="364dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="@string/choose_your_interests_for_your_child"
+        android:textColor="@color/darkPurple"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <CheckBox
+        android:layout_margin="15dp"
+
+        android:id="@+id/checkbox1"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:text="@string/have_you_baby_received_vaccinations"
+        android:textSize="25sp" />
+    <CheckBox
+        android:layout_margin="15dp"
+
+        android:textSize="25sp"
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_your_baby_sleeping_constantly" />
+    <CheckBox
+        android:textSize="25sp"
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+
+        android:text="@string/does_your_child_eat_well" />
+    <CheckBox
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/does_your_child_eat_well" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Submit"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+
+        android:text="@string/submit_list" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:id="@+id/button1"
+        android:textSize="35sp"
+
+        android:layout_width="wrap_content"
+        android:onClick="Continue"
+        android:layout_height="wrap_content"
+        android:text="@string/continue3" />
+</LinearLayout>
